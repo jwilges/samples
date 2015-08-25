@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\adt">
+      <UniqueIdentifier>{8944cc9e-e5f4-4921-92f9-2bce6936c548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\algorithm">
+      <UniqueIdentifier>{230d64f3-3840-4e44-96c5-1d84d4fc2935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\adt">
+      <UniqueIdentifier>{246a8e8b-2d15-484e-bf0a-242e53e39325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithm">
+      <UniqueIdentifier>{d2f2bda1-c291-4cc8-a9a6-3f8e228d1b83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\tests\include\framework.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tests\include\adt\stacktest.hpp">
+      <Filter>Header Files\adt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tests\include\algorithm\fibonaccitest.hpp">
+      <Filter>Header Files\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tests\include\algorithm\equilibriumtest.hpp">
+      <Filter>Header Files\algorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\tests\src\adt\stacktest.cpp">
+      <Filter>Source Files\adt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\src\algorithm\fibonaccitest.cpp">
+      <Filter>Source Files\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\src\framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\src\algorithm\equilibriumtest.cpp">
+      <Filter>Source Files\algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
