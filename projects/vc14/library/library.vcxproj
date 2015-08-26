@@ -11,6 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\library\include\adt\binaryheap.hpp" />
+    <ClInclude Include="..\..\..\library\include\adt\binaryheap.inc.hpp" />
     <ClInclude Include="..\..\..\library\include\adt\stack.hpp" />
     <ClInclude Include="..\..\..\library\include\adt\stack.inc.hpp" />
     <ClInclude Include="..\..\..\library\include\algorithm\equilibrium.hpp" />

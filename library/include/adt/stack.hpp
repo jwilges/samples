@@ -1,7 +1,7 @@
 #ifndef __ADT_STACK_HPP__
 #define __ADT_STACK_HPP__
 
-#include <iostream>
+#include <ostream>
 #include <memory>
 
 namespace adt

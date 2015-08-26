@@ -92,15 +92,13 @@ namespace adt
     template<typename T>
     std::ostream& Stack<T>::write(std::ostream& out) const
     {
-        if (_size <= 0)
+        if (_size > 0)
         {
-            return out;
-        }
-
-        out << _stack[0];
-        for (size_t index = 1; index < _size; index++)
-        {
-            out << ", " << _stack[index];
+            out << _stack[0];
+            for (size_t index = 1; index < _size; index++)
+            {
+                out << ", " << _stack[index];
+            }
         }
 
         return out;

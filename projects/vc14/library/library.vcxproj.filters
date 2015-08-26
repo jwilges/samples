@@ -33,8 +33,14 @@
     <ClInclude Include="..\..\..\library\include\algorithm\fibonacci.hpp">
       <Filter>Header Files\algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\library\include\adt\binaryheap.inc.hpp">
+      <Filter>Header Files\adt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\library\include\adt\binaryheap.hpp">
+      <Filter>Header Files\adt</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\library\include\adt\stack.inc.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\adt</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -10,7 +10,17 @@ namespace adt
     {
     }
 
-    void testPushRValuePop()
+    void StackTest::run()
+    {
+        testPushRValuePop();
+        testPushPopTopSize();
+        testCopyConstructor();
+        testMoveConstructor();
+        testAssignmentOperator();
+        testOutputStreamOperator();
+    }
+
+    void StackTest::testPushRValuePop()
     {
         adt::Stack<int> stack;
 
@@ -31,7 +41,7 @@ namespace adt
         }
     }
 
-    void testPushPopTopSize()
+    void StackTest::testPushPopTopSize()
     {
         adt::Stack<int> stack;
 
@@ -65,7 +75,7 @@ namespace adt
         ASSERT_EQUAL(static_cast<size_t>(0), stack.size());
     }
 
-    void testCopyConstructor()
+    void StackTest::testCopyConstructor()
     {
         adt::Stack<int> stackA;
 
@@ -91,7 +101,7 @@ namespace adt
         }
     }
 
-    void testMoveConstructor()
+    void StackTest::testMoveConstructor()
     {
         adt::Stack<int> stackA;
 
@@ -117,7 +127,7 @@ namespace adt
         }
     }
 
-    void testAssignmentOperator()
+    void StackTest::testAssignmentOperator()
     {
         adt::Stack<int> stackA;
 
@@ -144,7 +154,7 @@ namespace adt
         }
     }
 
-    void testOutputStreamOperator()
+    void StackTest::testOutputStreamOperator()
     {
         static const std::string EMPTY_STRING;
         adt::Stack<int> stack;
@@ -183,15 +193,5 @@ namespace adt
         result << stack;
         ASSERT_EQUAL(EMPTY_STRING, result.str());
         std::stringstream().swap(result);
-    }
-
-    void StackTest::run()
-    {
-        testPushRValuePop();
-        testPushPopTopSize();
-        testCopyConstructor();
-        testMoveConstructor();
-        testAssignmentOperator();
-        testOutputStreamOperator();
     }
 }

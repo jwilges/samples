@@ -1,5 +1,5 @@
-#ifndef __STACK_TEST_HPP__
-#define __STACK_TEST_HPP__
+#ifndef __ADT_STACK_TEST_HPP__
+#define __ADT_STACK_TEST_HPP__
 
 namespace adt
 {
@@ -8,6 +8,13 @@ namespace adt
     public:
         StackTest();
         void run();
+
+        void testPushRValuePop();
+        void testPushPopTopSize();
+        void testCopyConstructor();
+        void testMoveConstructor();
+        void testAssignmentOperator();
+        void testOutputStreamOperator();
     };
 }
 

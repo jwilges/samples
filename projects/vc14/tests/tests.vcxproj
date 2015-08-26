@@ -75,12 +75,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\tests\include\adt\binaryheaptest.hpp" />
     <ClInclude Include="..\..\..\tests\include\adt\stacktest.hpp" />
     <ClInclude Include="..\..\..\tests\include\algorithm\equilibriumtest.hpp" />
     <ClInclude Include="..\..\..\tests\include\algorithm\fibonaccitest.hpp" />
     <ClInclude Include="..\..\..\tests\include\framework.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\tests\src\adt\binaryheaptest.cpp" />
     <ClCompile Include="..\..\..\tests\src\adt\stacktest.cpp" />
     <ClCompile Include="..\..\..\tests\src\algorithm\equilibriumtest.cpp" />
     <ClCompile Include="..\..\..\tests\src\algorithm\fibonaccitest.cpp" />

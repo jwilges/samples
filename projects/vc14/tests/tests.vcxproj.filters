@@ -39,6 +39,9 @@
     <ClInclude Include="..\..\..\tests\include\algorithm\equilibriumtest.hpp">
       <Filter>Header Files\algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\tests\include\adt\binaryheaptest.hpp">
+      <Filter>Header Files\adt</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\tests\src\adt\stacktest.cpp">
@@ -55,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\tests\src\algorithm\equilibriumtest.cpp">
       <Filter>Source Files\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\src\adt\binaryheaptest.cpp">
+      <Filter>Source Files\adt</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
